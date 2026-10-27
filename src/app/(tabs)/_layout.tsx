@@ -12,9 +12,15 @@ export default function TabLayout() {
         <NativeTabs.Trigger.Icon sf={{ default: 'house', selected: 'house.fill' }} md="home"/>
         <NativeTabs.Trigger.Label>Home</NativeTabs.Trigger.Label>
       </NativeTabs.Trigger>
+
       <NativeTabs.Trigger name="about">
         <NativeTabs.Trigger.Icon sf={{ default: 'info', selected: 'house.fill' }} md="info"/>
         <NativeTabs.Trigger.Label>About</NativeTabs.Trigger.Label>
+      </NativeTabs.Trigger>
+
+      <NativeTabs.Trigger name="calendar">
+        <NativeTabs.Trigger.Icon sf={{ default: 'calendar', selected: 'house.fill' }} md="calendar_month"/>
+        <NativeTabs.Trigger.Label>Calendar</NativeTabs.Trigger.Label>
       </NativeTabs.Trigger>
     </NativeTabs>
   );
