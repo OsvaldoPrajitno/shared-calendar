@@ -1,6 +1,6 @@
 # Shared-Calendar
 
-This is a calendar meant to be shared between multiple users on both ios and android.
+This is a calendar where users can share events on both ios and android.
 
 ## Why make this?
 My main reasons are:
