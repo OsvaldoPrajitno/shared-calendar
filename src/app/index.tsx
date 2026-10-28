@@ -1,5 +1,4 @@
 import { useState } from 'react';
-import { StyleSheet } from "react-native";
 import { Calendar } from 'react-native-calendars';
 import { SafeAreaView } from 'react-native-safe-area-context';
 
@@ -35,9 +34,3 @@ export default function RenderCalendar() {
         </SafeAreaView>
     )
 }
-
-const styles = StyleSheet.create({
-    customHeaderStyle: {
-        
-    }
-})
